@@ -10,24 +10,24 @@ section {
   height: 100vh;
 }
 
-.denial_img {
-  background-image: url(img/Denial.svg);
+section.denial_img {
   background-color: grey;
 }
 
 .anger_img {
-  background-image: url(img/Anger.svg);
   background-color: #ff5757;
 }
 .bargain_img {
-  background-image: url(img/Bargaining.svg);
   background-color: #c9e265;
 }
 .depress_img {
-  background-image: url(img/sadness.svg);
   background-color: #03989e;
 }
 .accept_img {
-  background-image: url(img/Acceptance.svg);
   background-color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
