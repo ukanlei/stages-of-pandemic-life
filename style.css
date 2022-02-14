@@ -14,6 +14,14 @@ section {
   background-position: center;
 }
 
+@media (max-width: 700px) {
+  section {
+    height: 50vh;
+    background-size: contain;
+    background-attachment: scroll;
+  }
+}
+
 .denial_img {
   background-image: url(img/Denial.svg);
   background-color: grey;
