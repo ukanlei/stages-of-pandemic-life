@@ -4,6 +4,7 @@ body {
 
 header {
   position: fixed;
+  margin: 20px;
 }
 
 section {
