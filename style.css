@@ -18,6 +18,7 @@ section {
   section {
     height: 50vh;
     background-size: contain;
+    background-repeat: no-repeat;
     background-attachment: scroll;
   }
 }
