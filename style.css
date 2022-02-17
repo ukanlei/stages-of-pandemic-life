@@ -2,12 +2,6 @@ body {
   margin: 0;
 }
 
-header {
-  position: fixed;
-  margin: 20px;
-  font-family: monospace;
-}
-
 section {
   height: 100vh;
   background-attachment: fixed;
@@ -20,6 +14,22 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+}
+
+header {
+  font-size: large;
+}
+
+.top {
+  position: fixed;
+  margin: 20px;
+  font-family: monospace;
+}
+
+#resources {
+  position: fixed;
+  margin: 20px;
+  font-family: monospace;
 }
 
 .denial_img {
