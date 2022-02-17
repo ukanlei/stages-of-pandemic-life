@@ -20,13 +20,16 @@ header {
   font-size: large;
 }
 
-.top {
-  position: fixed;
-  margin: 20px;
-  font-family: monospace;
+a {
+  text-decoration: none;
+  color: rgb(54, 45, 45);
 }
 
-#resources {
+a:hover {
+  color: #6b31f3;
+}
+
+.top {
   position: fixed;
   margin: 20px;
   font-family: monospace;
